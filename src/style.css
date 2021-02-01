@@ -1,0 +1,238 @@
+@font-face {
+    font-family: "Montserrat Bold";
+    src: url("Montserrat-Bold.otf");
+}
+@font-face {
+    font-family: "Montserrat Regular";
+    src: url("Montserrat-Regular.otf");
+}
+@font-face {
+    font-family: "Montserrat Light";
+    src: url("Montserrat-Light.otf");
+}
+@font-face {
+    font-family: "Roboto Medium";
+    src: url("Roboto-Medium.ttf");
+}
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "Roboto Light";
+    src: url("Roboto-Light.ttf");
+}
+body {
+    font-family: "Roboto Light";
+    /*color: #333333;*/
+}
+b {
+    font-family: "Roboto Regular";
+    /*color: #414141;*/
+}
+p {
+    font-size: 15px;
+}
+.navbar-nav .nav-link {
+    color: #4A4A4A;
+}
+.btn {
+    border-width: 3px;
+}
+#hero-image {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.hero-image {
+    padding-top: 50px;
+}
+.hero-title {
+    font-family: "Montserrat Bold";
+    font-size: 54px;
+}
+.hero-title-medium {
+    font-family: "Montserrat Bold";
+    font-size: 30px;
+    color: #505050;
+}
+.hero-title-small {
+    font-family: "Montserrat Bold";
+    font-size: 16px;
+    color: #505050;
+}
+.hero-subtitle {
+    font-family: "Montserrat Light";
+    font-size: 30px;
+    color: rgba(65, 65, 65, 0.75);
+}
+.hero-subtitle-small {
+    font-family: "Montserrat Light";
+    font-size: 24px;
+    color: rgba(65, 65, 65, 1);
+}
+.hero-number {
+    vertical-align: top;
+    line-height: 55px;
+}
+.f-24 {
+    font-size: 24px;
+}
+.f-20 {
+    font-size: 20px;
+}
+.img-hero-secondary {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.img-hero-secondary-text {
+    margin-top: 300px;
+    font-family: "Montserrat Light";
+    font-size: 18px;
+    color: rgba(65, 65, 65, 0.6);
+}
+.btn-pill {
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Montserrat Bold";
+}
+.btn-primary {
+    background-color: #008FEB;
+    border-color: #008FEB;
+}
+.border-primary {
+    border: solid 2px #A9C8F3;
+}
+.bg-primary {
+    background: #008EEA;
+}
+.bg-primary-darker {
+    background: #007EDA;
+}
+.line {
+    border: 0.5px solid #dee2e6!important;
+    opacity: 0.5;
+}
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: white;
+}
+.table-striped>tbody>tr:nth-child(even)>td,
+.table-striped>tbody>tr:nth-child(even)>th {
+    background-color: #F7F7F7;
+}
+.separator {
+    border: solid 5px #F0F0F0;
+    width: 5%;
+    margin: 0 auto;
+}
+.img-fitur-hosting {
+    width: 90px;
+    display: block;
+    margin: 0 auto;
+}
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.banner-laravel {
+    margin-top: 0;
+}
+.text-bantuan {
+    font-size: 24px;
+}
+.btn-bantuan {
+    border-radius: 25px;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid white;
+}
+.footer-title {
+    font-family: "Roboto Medium";
+    color: #7A7A7A;
+    text-transform: uppercase;
+}
+.text-gray {
+    color: #D7D7D7;
+}
+.input-group {
+    position: relative;
+}
+.form-control {
+    padding-right: 47px;
+}
+.input-group-append {
+    position: absolute;
+    right: 0;
+    z-index: 10;
+}
+.input-newsletter {
+    padding: 25px;
+}
+.btn-newsletter {
+    border-radius: 25px;
+    background-color: #008FEB;
+    color: white;
+    margin-top: 7px;
+    margin-right: 7px;
+}
+.text-darkgray {
+    color: #6E6E6E;
+}
+.copyright-text {
+    font-size: 12px;
+}
+@media (min-width: 576px) {
+    .hero-image {
+        padding-top: 50px;
+    }
+    .text-bantuan {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero-image {
+        padding-top: 50px;
+    }
+    .center-align-left {
+        display: inline-block;
+        text-align: left;
+    }
+    .text-bantuan {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 992px) {
+    .hero-image {
+        padding-top: 150px;
+    }
+    .center-align-left {
+        display: inline-block;
+        text-align: left;
+    }
+    .text-bantuan {
+        font-size: 34px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hero-image {
+        padding-top: 50px;
+    }
+    .center-align-left {
+        display: inline-block;
+        text-align: left;
+    }
+    .banner-laravel {
+        margin-top: 80px;
+    }
+    .text-bantuan {
+        font-size: 34px;
+    }
+}
