@@ -14,21 +14,8 @@ services:
     volumes: 
       - ./src:/var/www/html
       - ./config/default.conf:/etc/nginx/conf.d/default.conf
-    # depends_on: 
-    #   - landing
     networks: 
       - boxbilling-network
-
-  # landing:
-  #   build: 
-  #     context: .
-  #   container_name: landing
-  #   volumes: 
-  #     - ./src:/var/www
-  #   ports: 
-  #     - "9000:9000"
-  #   networks: 
-  #     - boxbilling-network
 
   mysql:
     image: mysql:5.7.33

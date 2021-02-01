@@ -6,8 +6,6 @@ COPY config/default.conf /etc/nginx/conf.d/
 
 COPY config/nginx-landing.conf /etc/nginx/nginx.conf
 
-# COPY src/ /usr/share/nginx/html/
-
 COPY src/*.html /usr/share/nginx/html/
 COPY src/*.jpg /usr/share/nginx/html/
 COPY src/*.png /usr/share/nginx/html/
