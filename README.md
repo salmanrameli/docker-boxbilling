@@ -10,3 +10,7 @@ Niagahoster full stack developer test - step 2.
 5. - Landing page can be accessed at http://localhost:80
    - BoxBilling page can be accessed at http://localhost:8004
    - Uses BoxBilling's standard database credentials: database boxbilling, username foo, password foo
+
+## Screenshot
+![Landing](https://raw.githubusercontent.com/salmanrameli/docker-boxbilling/master/sc-landing.jpg)
+![BoxBilling](https://raw.githubusercontent.com/salmanrameli/docker-boxbilling/master/sc-boxbilling.jpg)
